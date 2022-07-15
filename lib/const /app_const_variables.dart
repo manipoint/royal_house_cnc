@@ -1,10 +1,11 @@
-import 'package:flutter/foundation.dart';
+
 import 'package:flutter/material.dart';
 
+final uri = 'https://royal-house-pk.herokuapp.com';
 
-final uri = defaultTargetPlatform == TargetPlatform.android
-    ? 'http://10.0.2.2:4242'
-    : 'http://localhost:4242';
+// final uri = defaultTargetPlatform == TargetPlatform.android
+//     ? 'http://10.0.2.2:4242'
+//     : 'http://localhost:4242';
 
 class GlobalVariables {
   // COLORS
@@ -52,15 +53,15 @@ class GlobalVariables {
       'title': 'Cup',
       'image': 'assets/cat/cup.jpg',
     },
-     {
+    {
       'title': 'Calligraphy',
       'image': 'assets/cat/Calligraphy.jpg',
     },
-       {
+    {
       'title': 'Jali',
       'image': 'assets/cat/jali.jpg',
     },
-      {
+    {
       'title': 'Walls',
       'image': 'assets/cat/wall.jpg',
     },
